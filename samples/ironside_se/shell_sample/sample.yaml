@@ -1,0 +1,16 @@
+#
+# Copyright (c) 2026 Nordic Semiconductor ASA
+#
+# SPDX-License-Identifier: LicenseRef-Nordic-4-Clause
+#
+
+sample:
+  name: Shell Sample
+
+common:
+  sysbuild: true
+
+tests:
+  sample.shell_sample:
+    platform_allow: nrf54h20dk/nrf54h20/cpuapp
+    build_only: true

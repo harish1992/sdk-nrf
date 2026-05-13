@@ -77,7 +77,7 @@ struct emds_dynamic_entry {
  * callback may not be reached before available backup power runs out.
  * If the application needs interrupts to be locked during this callback,
  * application can do so by calling irq_lock before calling @ref emds_store.
- */
+*/
 typedef void (*emds_store_cb_t)(void);
 
 /**
